@@ -39,7 +39,7 @@ GPIO.setup(Reset, GPIO.OUT)
 
 ReadMode  = 0
 WriteMode = 1
-DeAddr    = 0x4B
+DeAddr    = 0X4B
 ConfigValid =  0x3a6fb67c
 DelayTime = 0.005
 
