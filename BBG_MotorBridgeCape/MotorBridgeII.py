@@ -30,7 +30,7 @@
 # FileName : MotorBridge.py
 # by Jiankai.li
 
-from Adafruit_I2C import Adafruit_I2C
+import Adafruit_GPIO.I2C as I2C
 import Adafruit_BBIO.GPIO as GPIO
 import time
 Reset = "P9_23"
