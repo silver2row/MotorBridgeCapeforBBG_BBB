@@ -31,7 +31,7 @@
 # by Jiankai.li
 
 import Adafruit_GPIO.I2C as I2C
-import Adafruit_GPIO as GPIO
+import Adafruit_BBIO.GPIO as GPIO
 import time
 Reset = "P9_23"
 MotorBridge = I2C.Device(0x4b, 2)
