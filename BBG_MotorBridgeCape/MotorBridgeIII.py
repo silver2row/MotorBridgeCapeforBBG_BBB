@@ -30,11 +30,11 @@
 # FileName : MotorBridge.py
 # by Jiankai.li
 
-import Adafruit_GPIO.I2C as I2C
+import Adafruit_GPIO.I2C as I2C #told by #6 on the issues page.
 import Adafruit_BBIO.GPIO as GPIO
 import time
 Reset = "P9_23"
-MotorBridge = I2C.Device(0x4b, 2)
+MotorBridge = I2C.Device(0x4b, 2) #same...
 GPIO.setup(Reset, GPIO.OUT)
 
 ReadMode  = 0
