@@ -15,7 +15,7 @@ if __name__=="__main__":
     for i in range(1, 51):
         motor.DCMotorMove(1, 1, 90)
         motor.DCMotorMove(2, 1, 90)
-        print "I got your biscuit, now!"
+        #print "I got your biscuit, now!"
 
 #Making a U-Shape in the lawn
 #Left motor on chassis goes while the right motor ccw
@@ -25,7 +25,7 @@ if __name__=="__main__":
     for i in range(1, 3):
         motor.DCMotorMove(1, 1, 90)
         motor.DCMotorMove(2, 2, 90)
-        print "I love Jim's TURN!"
+        #print "I love Jim's TURN!"
 
 #All Flanks...Straight Ahead!        
     motor = MotorBridge.MotorBridgeCape()
@@ -34,7 +34,7 @@ if __name__=="__main__":
     for i in range(1, 51):
         motor.DCMotorMove(1, 1, 90)
         motor.DCMotorMove(2, 1, 90)
-        print "Give in to temptation!"
+        #print "Give in to temptation!"
         
 #Make another U-Turn but this time, motors go in the opposite direction!
     motor = MotorBridge.MotorBridgeCape()
@@ -51,7 +51,7 @@ if __name__=="__main__":
     for i in range(1, 51):
         motor.DCMotorMove(1, 1, 90)
         motor.DCMotorMove(2, 1, 90)
-        print "Tacos are not all around here!"
+        #print "Tacos are not all around here!"
   
   #etc...
     motor = MotorBridge.MotorBridgeCape()
