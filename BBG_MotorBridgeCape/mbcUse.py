@@ -109,3 +109,4 @@ if __name__=="__main__":
     for i in range(1, 51):
         motor.DCMotorMove(1, 1, 90)
         motor.DCMotorMove(2, 1, 90)
+        time.sleep(1500)
